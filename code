@@ -50,12 +50,6 @@ for i in range(len(info)):
     print(heart.columns[i]+":\t\t\t"+info[i])
 
 
-# In[ ]:
-
-
-
-
-
 # In[7]:
 
 
@@ -90,12 +84,6 @@ heart.size
 
 
 heart.describe()
-
-
-# In[ ]:
-
-
-
 
 
 # In[13]:
@@ -165,10 +153,6 @@ sns.barplot(heart["cp"],heart['target'])
 
 
 sns.barplot(heart["sex"],heart['target'])
-
-
-# In[ ]:
-
 
 
 
@@ -649,48 +633,6 @@ plot_feature_importances_diabetes(dt)
 plt.savefig('feature_importance')
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
 # In[77]:
 
 
@@ -838,22 +780,6 @@ plt.xlabel("Algorithms")
 plt.ylabel("Accuracy score")
 
 sns.barplot(algorithms,scores)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
